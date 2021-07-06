@@ -1,0 +1,25 @@
+[Data Source]
+DisplayName=My Tasks
+Enabled=true
+Parent=c2880c179c8208d7f31980e428bfcd9813e1bc2b
+
+[Task List]
+BackendName=gtasks
+Color=#becedd
+Selected=true
+
+[Resource]
+Identity=gtasks::MDU1MjE4Mjk1OTA4OTIxNzQyMDY6MDow
+
+[Authentication]
+Host=www.google.com
+Method=OAuth2
+Port=0
+ProxyUid=system-proxy
+RememberPassword=true
+User=cksingh883@gmail.com
+CredentialName=
+
+[Alarms]
+IncludeMe=false
+LastNotified=

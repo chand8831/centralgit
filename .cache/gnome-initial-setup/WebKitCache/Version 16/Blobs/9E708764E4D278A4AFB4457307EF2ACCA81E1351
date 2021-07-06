@@ -1,0 +1,51 @@
+this._G=this._G||{};(function(_){var window=this;
+try{
+_.k("sybl");
+var v_=function(a){_.xP.call(this);this.ka=a.get(_.Ck);this.Aa=a.get(_.Qk);this.aa=[]},blb;_.Fh(v_,_.xP);_.w_=function(a,b){var c=function(d){v_.call(this,d);b&&(this.fa=!0);_.Da(a,function(e,f){if(null!=e){e="function"===typeof e?_.l1a(this,blb(this,e)):_.l1a(this,blb(this,_.Ih(e)));if(null!==this&&f in this)throw Error("t`"+f);this[f]=e}},this)};_.Fh(c,v_);return c};blb=function(a,b){b={s4:b,Me:new _.Sb,key:void 0};a.aa.push(b);return b.Me};
+v_.prototype.ha=function(){var a=new _.m1a;_.Aa(this.aa,function(b){b.key=b.s4(a)},this);_.qka(this.Aa,_.kb(this.aa,function(b){return b.key}));_.Aa(this.aa,function(b){var c=b.Me;this.ka.getData(b.key).then(c.callback,c.aa,c)},this)};
+
+_.m();
+
+}catch(e){_._DumpException(e)}
+try{
+_.k("sydk");
+_.J1=function(a){_.y(this,a,-1,null,null)};_.x(_.J1,_.q);_.J1.prototype.Fk=function(){return _.ce(this,1)};_.qpb=function(a,b){return _.n(a,1,b)};_.J1.prototype.wq=function(){return _.Lj(this,1)};_.J1.wb="gf.siecp";
+_.K1=function(a){_.y(this,a,-1,null,null)};_.x(_.K1,_.q);_.rpb=function(a,b){var c,d={HEa:null==(c=_.r(b,6))?void 0:c,Nsa:null==(c=_.r(b,7))?void 0:c,hBa:null==(c=_.r(b,4))?void 0:c,$Aa:null==(c=_.r(b,5))?void 0:c};a&&(d.ia=b);return d};_.spb=new _.Bb(84282766,{J4:0},_.K1,_.rpb);_.K1.wb="gf.siecpr";
+
+_.m();
+
+}catch(e){_._DumpException(e)}
+try{
+_.k("sydm");
+var xpb=function(a){_.y(this,a,-1,null,null)};_.x(xpb,_.q);var ypb=new _.Bb(76058609,{EEa:0},xpb,function(a,b){var c,d={BDa:null==(c=_.r(b,1))?void 0:c};a&&(d.ia=b);return d});_.el[76058609]=ypb;
+_.zpb=_.w_({iX:{ef:ypb,request:new xpb,Sd:_.pya}});
+
+_.m();
+
+}catch(e){_._DumpException(e)}
+try{
+var Aqb=function(){var a=new _.J1;return _.n(a,3,!0)};_.k("syej");
+var T2=function(a){_.Y.call(this,a.Da);this.xa=a.oa.request;this.ka=a.oa.Qc;this.Ga=a.oa.Ry;this.ha=a.model.signIn;_.zt(this,Bqb(this))};_.x(T2,_.Y);T2.ta=function(){return{model:{signIn:_.vF},oa:{Ry:_.WM,Qc:_.vO,request:_.Sy}}};var Bqb=function(a){return _.gg(a,{controller:{Kf:"vZSTIf"}}).then(function(b){a.ea=b.controller.Kf;a.wd(a.ea)})};T2.prototype.Va=function(){_.Y.prototype.Va.call(this);var a=_.u(this.ha.aa,_.cF,23)&&_.u(this.ha.aa,_.cF,23).Jh();a&&_.F0a(this.Ga,this.Ba(),a,this.da.aa)};
+T2.prototype.Oc=function(){var a=this;this.ea.validate(function(){Cqb(a)})};var Cqb=function(a){a.Sa();var b=_.IB(a.ha);!_.JB(a.ha)&&b&&_.KB(b)&&a.Ob().attemptLogin(_.KB(b),a.ea.Ia());b=_.qpb(new _.J1,a.ea.Ia());b=a.xa.makeRequest("/_/speedbump/changepassword",b,_.ZE);_.kd(b,function(c){1==c.ub()?Dqb(a,c):(_.yO(a.ka,a.Ma(),a.ha,c),a.kb())});_.qn(b,function(){_.fy(a.Ha(),"info/unknownerror")})};
+T2.prototype.eca=function(){var a=this,b=Aqb();b=this.xa.makeRequest("/_/speedbump/changepassword",b,_.ZE);_.kd(b,function(c){1==c.ub()?Dqb(a,c):(_.yO(a.ka,a.Ma(),a.ha,c),a.kb())});_.qn(b,function(){_.fy(a.Ha(),"info/unknownerror")})};var Dqb=function(a,b){a.kb();b=b.getExtension(_.spb);if(_.de(b,4)&&_.de(b,5)){var c=_.de(b,4),d=_.de(b,5);a.ea.kN(c,d)}b=_.Gj(b,6,0);c=a.ea.Ia();5==b?a.ea.pY(c):4==b&&a.ea.qY(c);a.ea.validate();a.ea.ob(null);a=a.ea;a.aa&&a.aa.ob(null)};_.Q(T2.prototype,"yhMoMe",function(){return this.eca});
+_.Q(T2.prototype,"UHZ0U",function(){return this.Oc});_.Q(T2.prototype,"WYd",function(){return this.Va});_.R(_.cHa,T2);
+
+_.m();
+
+}catch(e){_._DumpException(e)}
+try{
+_.k("changepassword_view");
+_.H("Re","",0,function(){return"Save password"});_.H("Se","",0,function(){return"Skip"});_.H("Te","",0,function(){return"Change password"});_.H("Qe","",0,function(){return(0,_.C)("Create a strong password")});_.H("Ue","",0,function(){return"Create a new, strong password that you don't use for other websites"});
+_.dHa.aa({Ta:function(a,b){var c=a.Qa,d=a.wa,e=a.hX,f="";a=d.wa;null==a?a=null:(a=_.u(a,_.cF,23),a=null==a?null:_.u(a,_.ixa,3));var g=a;a=_.lF(d.wa);a=null==a?null:a.Ec();var l=_.lF(d.wa);l=null==l?null:_.KB(l);var p=c.ja;c=c.ja;d=d.wa;var t=g;d=d&&(d.ia||d);t=t&&(t.ia||t);var v="";if(2==(null==t?null:_.r(t,3)))v+="Change password to sign in";else switch(null==t?null:_.r(t,1)){case 3:v+=_.J("Te","",!1)({info:t},b);break;case 1:case 5:v+="Change password";break;case 6:v+="Create a strong password";
+break;default:v+=_.ST(b,d)}d=v;p=(null==p?null:_.oP(p))&&6!=(null==g?null:_.r(g,1));t=(0,_.L)(""+(6!=(null==g?null:_.r(g,1))?_.J("Qe","",!1)({info:g},b):""));var z=g;z=z&&(z.ia||z);var B=b.locale;v="";switch(null==z?null:_.r(z,1)){case 1:case 5:z=5==_.r(z,1)?"https://support.google.com/accounts?p=newdevice_changepw&hl="+_.Qs(B):"https://support.google.com/accounts/answer/46526?hl="+_.Qs(B);z=(0,_.Hs)(z);B="There's been <a href=\""+(_.N(_.Us(z))+'" id="suspicious-activity" target="_blank">suspicious activity</a> on your Google Account. For your protection, you need to change your password.');
+_.N(_.Us(z));z=B+" Create a new, strong password that you don't use for other websites";v+=_.W({Ea:"CDxmdf",text:(0,_.L)(z)},b);break;case 3:B=(B=z)&&(B.ia||B);z="";switch(null==B?null:_.r(B,3)){case 1:z+=_.W({text:"You can change your password because you\u2019ve signed in on this device before. Save this password so that you can easily sign in again in future."},b);break;case 2:B=B&&(B.ia||B);B=null==B?null:_.r(B,4);z+=_.W({text:B?"Because you\u2019re already signed in to your recovery email address, "+
+B+", on this device, Google has verified that it\u2019s you trying to sign in. Save this password so that you can easily sign in again in future.":"Because you\u2019re already signed in to your recovery email address on this device, Google has verified that it\u2019s you trying to sign in. Save this password so that you can easily sign in again in future."},b);break;case 3:z+=_.W({text:"You can change your password because you just verified your phone number."},b);break;default:z+=_.W({text:""+_.J("Ue",
+"",!1)({info:B},b)},b)}z=(0,_.C)(z);v+=z;break;case 6:z=(0,_.C)("Create a strong password with a mixture of letters, numbers and symbols");v+=z;break;default:v+=_.W({text:""+_.J("Ue","",!1)({info:z},b)},b)}v=(0,_.C)(v);v=(0,_.L)(""+v);e=(e=e.iX)&&(e.ia||e);e=(0,_.C)(_.rP({Ea:"vZSTIf",label:"Create password",As:"Confirm",hint:_.k1a(),YZ:e?{minLength:_.r(e,1),maxLength:_.r(e,2)}:null},b));e=(0,_.L)(""+e);z=(z=g)&&(z.ia||z);z=3==(null==z?null:_.r(z,2))?_.J("Re","",!1)(null,b):_.IM();g=g&&(g.ia||g);g=
+3==(null==g?null:_.r(g,2))?_.J("Se","",!1)(null,b):"";f+=_.tP({Wa:"fkxsad",Pa:"Qn7A2d",Za:"jiqeKb:UHZ0U;u3KAb:UHZ0U;cLkKDf:yhMoMe;rcuQ6b:WYd",content:(0,_.L)(""+_.uP({ja:c,title:d,jd:{hc:null!=a?a:"",identifier:null!=l?l:""},Hf:p,heading:t,description:v,fb:e,Db:"changepasswordNext",Ya:z,Lf:"changepasswordSkip",Mb:g},b))},b);return(0,_.C)(f)},Ua:_.Z({Qa:_.RP,Ab:_.VX,wa:_.wU,hX:_.zpb}),title:"ignore"});
+
+
+_.m();
+
+}catch(e){_._DumpException(e)}
+})(this._G);
+// Google Inc.
